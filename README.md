@@ -1,27 +1,32 @@
 <!--your zenodo badge here-->
 
-# meta-repository
-Template repository for a single point of access meta-repository to reproduce an experiment
-
-># ABOUT
-
-## NOTE:
-Delete this `ABOUT` section after creating your template!  It is for instructional purposes only
-
-## Purpose
-A meta-repository allows us to create a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility.  This repository should contain references to all minted data and software as well as house any ancillary code used to transform the source data, conduct the experiment, and / or execute the contributing software.
-
-## Naming your meta-repository
-The following naming conventions should be used when naming your repository:  
-- Single author:  `lastname_year_journal`
-- Multi author:  `lastname-etal_year_journal`
-- Multiple publications in the same journal:  `lastname-etal_year-letter_journal` (e.g., `human-etal_2020-b_nature`)
-
-## Creating a minted release for your meta-repository
-It is important to version and release your meta-repository as well due to changes that may occur during the publication review process.  If you do not know how to conduct a release on GitHub when linked with Zenodo, please contact chris.vernon@pnnl.gov to get set up.  The first line of this file is a space holder for your Zenodo DOI badge.
-
-
-## The following is the template for you to fill in with your own information
+>## Instructions for use
+>NOTE:  Delete this instructional section after creating your template!
+>
+>### Purpose
+>A meta-repository allows us to create a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility.  This repository should contain references to all minted data and software as well as house any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
+>
+>### Using the Template
+>Simply click `Use this template` on the main repository page (shows up to the left of `Clone or download`) and fill in your `Repository name`, the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked.
+>
+>### Naming your meta-repository
+>The following naming conventions should be used when naming your repository:  
+>- Single author:  `lastname_year_journal`
+>- Multi author:  `lastname-etal_year_journal`
+>- Multiple publications in the same journal:  `lastname-etal_year-letter_journal` (e.g., `human-etal_2020-b_nature`)
+>
+>### Cutomize your `.gitignore` file
+>A general `.gitignore` for use with Python development is included.  However, you may wish to customize this to the needs of your project.
+>
+>### Suggestions
+>- Don't bog down your repository with a bunch of raw data.  Instead archive and mint a DOI for your data and provide the reference in this repository with instructions for use. 
+>- Create complete and tested documentation for how to use what is in this repository to reproduce your experiment.
+>
+>### Creating a minted release for your meta-repository
+>It is important to version and release your meta-repository as well due to changes that may occur during the publication review process.  If you do not know how to conduct a release on GitHub when linked with Zenodo, please contact chris.vernon@pnnl.gov to get set up.  The first line of this file is a space holder for your Zenodo DOI badge.
+>
+>
+>### The following is the template for you to fill in with your own information
 
 
 # meta-repository
