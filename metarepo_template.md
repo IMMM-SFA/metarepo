@@ -1,4 +1,4 @@
-<!--your zenodo badge here-->
+_your zenodo badge here_
 
 # lastname-etal_year_journal
 
@@ -7,7 +7,7 @@
 Jae Edmonds<sup>1\*</sup> and John Reilly<sup>1</sup>
 
 <sup>1 </sup> Institute for Energy Analysis, Oak Ridge Associated Universities, 1346 Connecticut Avenue, NW, Washington, DC 20036, USA
-\* corresponding author:  email@pnl.gov
+\* corresponding author:  email@myorg.gov
 
 ## Abstract
 In this paper the authors develop a long-term global energy-economic model which is capable of assessing alternative energy evolutions over periods of up to 100 years. The authors have sought to construct the model so that it can perform its assigned task with as simple a modelling system as possible. The model structure is fully documented and a brief summary of results is given.
@@ -46,10 +46,10 @@ Fill in detailed info here or link to other documentation that is a thorough wal
 3. Run the following scripts in the `workflow` directory to re-create this experiment:
 | Script Name | Description | How to Run |
 | --- | --- | --- |
-| `step_one.py` | Script to run the first part of my experiment | `python3 step_one.py -f /path/to/inputdata/file_one.csv`
-| `step_two.py` | Script to run the last part of my experiment | `python3 step_two.py -o /path/to/my/outputdir`
+| `step_one.py` | Script to run the first part of my experiment | `python3 step_one.py -f /path/to/inputdata/file_one.csv` |
+| `step_two.py` | Script to run the last part of my experiment | `python3 step_two.py -o /path/to/my/outputdir` |
 4. Download and unzip the output data from my experiment [Output data](#Output data)
 5. Run the following scripts in the `workflow` directory to compare my outputs to those from the publication
 | Script Name | Description | How to Run |
 | --- | --- | --- |
-| `compare.py` | Script to compare my outputs to the original | `python3 compare.py --orig /path/to/original/data.csv --new /path/to/new/data.csv`
+| `compare.py` | Script to compare my outputs to the original | `python3 compare.py --orig /path/to/original/data.csv --new /path/to/new/data.csv` |
