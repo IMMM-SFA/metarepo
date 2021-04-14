@@ -57,3 +57,10 @@ Fill in detailed info here or link to other documentation that is a thorough wal
 | Script Name | Description | How to Run |
 | --- | --- | --- |
 | `compare.py` | Script to compare my outputs to the original | `python3 compare.py --orig /path/to/original/data.csv --new /path/to/new/data.csv` |
+
+# Reproduce my figures
+Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
+
+| Script Name | Description | How to Run |
+| --- | --- | --- |
+| `generate_figures.py` | Script to generate my figures | `python3 generate_figures.py -i /path/to/inputs -o /path/to/outuptdir` |
