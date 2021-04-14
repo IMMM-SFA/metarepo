@@ -9,15 +9,13 @@ A meta-repository creates a single point of access for someone to find all of th
 ## Using the template
 Simply click `Use this template` on the main repository page (shows up to the left of `Clone or download`) and fill in your `Repository name`, the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked.
 
-Use the following naming convention for your repository:  `<lastname-etal_year_journal` If multiple artcles meet this name, add an `_a-z` suffix, where `a-z` represents incremental publications.
-
 ## Naming your meta-repository
 The following naming conventions should be used when naming your repository:  
 - Single author:  `lastname_year_journal`
 - Multi author:  `lastname-etal_year_journal`
 - Multiple publications in the same journal:  `lastname-etal_year-letter_journal` (e.g., `human-etal_2020-b_nature`)
 
-## Cutomize your `.gitignore` file
+## Customize your `.gitignore` file
 A general `.gitignore` for use with Python or R development is included.  However, you may wish to customize this to the needs of your project.  The `.gitignore` file lets Git know what to push to the remote repository and what needs to be ignored and stay local.
 
 ## Suggestions
@@ -31,7 +29,7 @@ It is important to version and release your meta-repository as well due to chang
 A sample meta-repository template is provided in this repository in the file `metarepo_template.md`.  
 
 To use it, do the following:
-1. Create the template repository as mentioned above in [Using the template](#Using the template)
+1. Create the template repository as mentioned above in [Using the template](#using-the-template)
 2. Clone your new repository to you local machine
 3. Change directories into your new meta-repository directory you just cloned
 4. Run `git rm README.md` to delete this file (`README.md`) and commit it using `git commit -m 'remove instructions'`
