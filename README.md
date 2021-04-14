@@ -1,71 +1,41 @@
-<!--your zenodo badge here-->
-
-># meta-repository
->Template repository for a single point of access meta-repository to reproduce an experiment
->
->## Instructions for use
->NOTE:  Delete this instructional section after creating your template!
->
->### Purpose
->A meta-repository allows us to create a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility.  This repository should contain references to all minted data and software as well as house any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
->
->### Using the Template
->Simply click `Use this template` on the main repository page (shows up to the left of `Clone or download`) and fill in your `Repository name`, the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked.
->
->### Naming your meta-repository
->The following naming conventions should be used when naming your repository:  
->- Single author:  `lastname_year_journal`
->- Multi author:  `lastname-etal_year_journal`
->- Multiple publications in the same journal:  `lastname-etal_year-letter_journal` (e.g., `human-etal_2020-b_nature`)
->
->### Cutomize your `.gitignore` file
->A general `.gitignore` for use with Python development is included.  However, you may wish to customize this to the needs of your project.
->
->### Suggestions
->- Don't bog down your repository with a bunch of raw data.  Instead archive and mint a DOI for your data and provide the reference in this repository with instructions for use. 
->- Create complete and tested documentation for how to use what is in this repository to reproduce your experiment.
->
->### Creating a minted release for your meta-repository
->It is important to version and release your meta-repository as well due to changes that may occur during the publication review process.  If you do not know how to conduct a release on GitHub when linked with Zenodo, please contact chris.vernon@pnnl.gov to get set up.  The first line of this file is a space holder for your Zenodo DOI badge.
->
->
->### The following is the template for you to fill in with your own information
 
 
-# lastname-etal_year_journal
-One sentence describing your research
+# metarepo
+Template repository for a single point of access meta-repository to reproduce an experiment
 
-## Abstract
-Your abstract here.
+## Purpose
+A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility.  This repository should contain references to all minted data and software as well as house any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
 
-## Code reference
-References for each minted software release for all code involved.  If you have modified a codebase that is outside of a formal release, and the modifications are not planned on being merged back into a version, fork the parent repository and add a `.<shortname>` to the version number of the parent and conduct your own name.  For example, `v1.2.5.hydro`.
+## Using the template
+Simply click `Use this template` on the main repository page (shows up to the left of `Clone or download`) and fill in your `Repository name`, the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked.
 
-#### Example:
+## Naming your meta-repository
+The following naming conventions should be used when naming your repository:  
+- Single author:  `lastname_year_journal`
+- Multi author:  `lastname-etal_year_journal`
+- Multiple publications in the same journal:  `lastname-etal_year-letter_journal` (e.g., `human-etal_2020-b_nature`)
 
-Human, I.M. (2020, January 1). human/myrepo: v1.2.5.hydro (Version v1.2.5.hydro). Zenodo. https://doi.org/some-doi-number
+## Customize your `.gitignore` file
+A general `.gitignore` for use with Python or R development is included.  However, you may wish to customize this to the needs of your project.  The `.gitignore` file lets Git know what to push to the remote repository and what needs to be ignored and stay local.
 
-## Journal reference
-Update your journal reference here after acceptance.
+## Suggestions
+- Don't bog down your repository with a bunch of raw data.  Instead archive and mint a DOI for your data and provide the reference in this repository with instructions for use.
+- Create complete and tested documentation for how to use what is in this repository to reproduce your experiment.
 
-## Data reference
+## Creating a minted release for your meta-repository
+It is important to version and release your meta-repository as well due to changes that may occur during the publication review process.  If you do not know how to conduct a release on GitHub when linked with Zenodo, please contact chris.vernon@pnnl.gov to get set up.  
 
-### Input data
-Reference for each minted data source for your input data.  
+## The meta-repository markdown template
+A sample meta-repository template is provided in this repository in the file `metarepo_template.md`.  
 
-#### Example:
-
-Human, I.M. (2020). My dataset name [Data set]. DataHub. https://doi.org/some-doi-number
-
-### Output data
-Reference for each minted data source for your output data.  
-
-## Contributing models
-| Model | Version | Repository Link | DOI |
-|-------|---------|-----------------|-----|
-| <model 1> | <version> | <link to code repository> | <link to DOI dataset> |
-| <model 2> | <version> | <link to code repository> | <link to DOI dataset> |
-
-## Reproduce my experiement
-Fill in detailed info here or link to other documentation that is a thorough walkthrough of how to use what is in this repository to reproduce your experiment.
-
+To use it, do the following:
+1. Create the template repository as mentioned above in [Using the template](#using-the-template)
+2. Clone your new repository to you local machine
+3. Change directories into your new meta-repository directory you just cloned
+4. Run `git rm README.md` to delete this file (`README.md`) and commit it using `git commit -m 'remove instructions'`
+5. Rename `metarepo_template.md` as `README.md`
+6. Run `git add README.md` to stage the new file that will show up on load in your remote GitHub repository
+7. Run `git rm metarepo_template.md` to remove the original template
+8. Run `git commit -m 'set up new template as readme'` to set the changes
+9. Run `git push` to send the changes to your remote GitHub repository
+10. Modify the `README.md` file to represent your experiement and use the `add`, `commit`, `push` workflow to update your remote repository
