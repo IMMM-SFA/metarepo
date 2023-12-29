@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/265119113.svg)](https://zenodo.org/badge/latestdoi/265119113)
+[![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485)
 
 # metarepo
 Template repository for a single point of access meta-repository to reproduce an experiment
