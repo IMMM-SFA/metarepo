@@ -88,3 +88,5 @@ A general `.gitignore` for use with Python or R development is included. However
 ## Have more questions? 
 
 Ask a question in the [Discussion Section](https://github.com/IMMM-SFA/metarepo/discussions)!
+
+If you're a part of IM3, reach out to the DSC team (POC [Chris Vernon](mailto:chris.vernon@pnnl.gov))
