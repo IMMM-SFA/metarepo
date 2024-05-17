@@ -22,7 +22,7 @@ C. [Upload all materials necessary to reproduce your results](#c-upload-all-mate
 
 D. [Add a DOI to your metarepo](#d-add-a-doi-to-your-metarepo)
 
-E. [Add your metarepo citation in your paper](#e-add-your-metarepo-citation-to-your-paper)
+E. [Add your metarepo citation to your paper](#e-add-your-metarepo-citation-to-your-paper)
 
 ### A. Use the template to initialize your own meta-repo
 Click `Use this template` on the main repository page (shows up above `Clone or download`) and click `Create a new repository`. Fill in your `Repository name` (naming conventions below), the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked. Click `Create repository`. You'll be taken to the new repository you created.
