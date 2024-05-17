@@ -3,8 +3,6 @@
 # metarepo
 `metarepo` is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This repo is a template for creating your own metarepo.
 
-[![Use the metarepo template|32x32](https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA)]
-
 ## Purpose
 A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository should contain references to all minted data and software as well as any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
 
@@ -27,7 +25,7 @@ D. [Add a DOI to your metarepo](#d-add-a-doi-to-your-metarepo)
 E. [Add your metarepo citation to your paper](#e-add-your-metarepo-citation-to-your-paper)
 
 ### A. Use the template to initialize your own meta-repo
-Either click on the `Use the metarepo template` link at the top of this page, or click `Use this template` on the [main repository page](https://github.com/IMMM-SFA/metarepo/) (shows up above `Clone or download`) and click `Create a new repository`. 
+To use the template, either click [here](https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA), click on the `Use the metarepo template` link at the top of this page, or click `Use this template` on the [main repository page](https://github.com/IMMM-SFA/metarepo/) (shows up above `Clone or download`) and click `Create a new repository`. 
 
 Fill in your `Repository name` (naming conventions below), the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked. Click `Create repository`. You'll be taken to the new repository you created.
 
