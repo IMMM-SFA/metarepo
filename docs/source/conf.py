@@ -15,7 +15,6 @@ author = 'Em Rexer, Chris Vernon'
 
 extensions = [
     'myst_parser',
-    'sphinxemoji.sphinxemoji',
     ]
 
 templates_path = ['_templates']
