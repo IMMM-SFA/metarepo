@@ -10,7 +10,7 @@ Welcome to metarepo's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   index
 
 Indices and tables
 ==================
