@@ -23,10 +23,17 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# html_theme = 'insegel'
 html_theme = "shibuya"
 html_theme_options = {
     # Disable showing the sidebar. Defaults to 'false'
     'nosidebar': True,
+    "nav_links": [
+        {
+            "title": "Use the `metarepo` template",
+            "url": "https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA"
+        },
+    ],
+    "logo_target": "https://im3.pnnl.gov/",
 }
+html_logo = "_static/im3logo.png"
 html_static_path = ['_static']
