@@ -80,6 +80,7 @@ A general `.gitignore` for use with Python or R development is included. However
 
 
 ```{eval-rst}
+=========================
 |:star:| Stellar Examples
 =========================
 ```
