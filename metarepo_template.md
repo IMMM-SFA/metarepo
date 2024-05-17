@@ -2,7 +2,7 @@ _your zenodo badge here_
 
 # lastname-etal_year_journal
 
-**your Paper Title here**
+**your Paper Title here (once published, include a link to the text)**
 
 First Last<sup>1\*</sup>, First Last<sup>1</sup>,  and First Last<sup>1, 2</sup>
 
@@ -74,6 +74,8 @@ Fill in detailed info here or link to other documentation to thoroughly walkthro
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
 
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `generate_figures.py` | Script to generate my figures | `python3 generate_figures.py -input /path/to/inputs -output /path/to/outuptdir` |
+| Figure Number(s) | Script Name | Description | How to Run |
+| --- | --- | --- | --- |
+| 1, 2 | `generate_plot.py` | Description of figure, ie. "Plots the difference between our two scenarios" | `python3 generate_plot.py -input /path/to/inputs -output /path/to/outuptdir` |
+| 3 | `generate_figure.py` | Description of figure, ie. "Shows how the mean and peak differences are calculated" | `python3 generate_figure.py -input /path/to/inputs -output /path/to/outuptdir` |
+
