@@ -1,3 +1,4 @@
-sphinx>=7.3.7
 myst_parser>=3.0.1
 shibuya>=2024.5.15
+sphinx>=7.3.7
+sphinxemoji>=0.3.1
