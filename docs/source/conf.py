@@ -35,5 +35,5 @@ html_theme_options = {
     ],
     "logo_target": "https://im3.pnnl.gov/",
 }
-html_logo = "_static/im3logo.png"
+html_logo = "im3logo.png"
 html_static_path = ['_static']
