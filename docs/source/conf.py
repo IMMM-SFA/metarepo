@@ -33,7 +33,7 @@ html_theme_options = {
             "url": "https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA"
         },
     ],
-    "logo_target": "https://im3.pnnl.gov/",
+    "logo_target": "https://immm-sfa.github.io/metarepo",
 }
-html_logo = "im3logo.png"
+html_logo = "metarepo_logo.png"
 html_static_path = ['_static']
