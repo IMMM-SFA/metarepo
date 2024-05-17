@@ -26,7 +26,7 @@ E. [Add your metarepo citation to your paper](#e-add-your-metarepo-citation-to-y
 ### A. Use the template to initialize your own meta-repo
 To use the template, either click [here](https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA), click on the `Use the metarepo template` link at the top of this page, or click `Use this template` on the [main repository page](https://github.com/IMMM-SFA/metarepo/) (shows up above `Clone or download`) and click `Create a new repository`. 
 
-Fill in your `Repository name` (naming conventions below), the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked. Click `Create repository`. You'll be taken to the new repository you created.
+If you are a part of IM3, change the `Owner` to `IMMM-SFA`. Fill in your `Repository name` (naming conventions below), the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked. Click `Create repository`. You'll be taken to the new repository you created.
 
 Note: The following naming conventions should be used when naming your repository:  
 - Single author:  `lastname_year_journal`
@@ -83,6 +83,7 @@ A general `.gitignore` for use with Python or R development is included. However
 
 - [burleyson-etal_2024_applied_energy](https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy)
 - [ssembatya-etal_2024_earths_future](https://github.com/IMMM-SFA/ssembatya-etal_2024_earths_future)
+- [zhao-etal_2023_gmd](https://github.com/JGCRI/zhao-etal_2023_gmd)
 
 ## Have more questions? 
 
