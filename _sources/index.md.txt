@@ -79,7 +79,10 @@ A general `.gitignore` for use with Python or R development is included. However
 - Remove all the instructive text throughout your metarepo once you're done. 
 
 
-## :star: Stellar Examples
+```{eval-rst}
+|:star:| Stellar Examples
+=========================
+```
 
 - [burleyson-etal_2024_applied_energy](https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy)
 - [ssembatya-etal_2024_earths_future](https://github.com/IMMM-SFA/ssembatya-etal_2024_earths_future)
