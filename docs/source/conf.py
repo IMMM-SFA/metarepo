@@ -29,11 +29,11 @@ html_theme_options = {
     'nosidebar': True,
     "nav_links": [
         {
-            "title": "Use the `metarepo` template",
+            "title": "Use the metarepo template",
             "url": "https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA"
         },
     ],
     "logo_target": "https://immm-sfa.github.io/metarepo",
 }
-html_logo = "metarepo_logo.png"
+html_logo = "metarepo_logo1.png"
 html_static_path = ['_static']
