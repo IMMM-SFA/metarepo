@@ -3,7 +3,7 @@
 # metarepo
 `metarepo` is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This repo is a template for creating your own metarepo.
 
-[![Click here to use the metarepo template][](https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA)]
+[![Use the `metarepo` template|32x32](https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA)]
 
 ## Purpose
 A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository should contain references to all minted data and software as well as any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.

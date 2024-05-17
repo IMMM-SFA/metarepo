@@ -1,55 +1,145 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
+<html lang="en" data-accent-color="violet" data-content_root="./">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#2D2D2D" />
-  
-  <title>metarepo :: metarepo</title>
-  
+      <title>metarepo documentation</title>
+    <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="_static/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="_static/img/favicon-16x16.png">
-  <link rel="index" title="Index" href="genindex.html"/>
-
-  <link rel="stylesheet" href="_static/css/insegel.css"/>
-  <link rel="stylesheet" href="_static/css/custom.css"/>
-
-  <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-      <script type="text/javascript" src="_static/documentation_options.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="_static/sphinx_highlight.js"></script>
-  
-
-  <script src="https://email.tl.fortawesome.com/c/eJxNjUEOgyAQAF8jR7Kw6wIHDh7sP1Cw2mgxgmn6-3JsMqc5zEQfE8dkxOY1KKMUOI3ACFKRJpSW2AAp7ontYIaxI6i7XPJVwyeVfCQ550Os3jLrGSNOLgbdAy6s0PBk2TFNjEbsfq31LB0OnX407pJa5v2faRadwSW63mn5KuLyR9j2tgx3zecanl-55R_-jjPs"></script> 
-</head>
-
-<body>
-  <div id="insegel-container">
-    <header>
-      <div id="logo-container">
-          
-          <h1>metarepo</h1>
-          
-      </div>
-      <div id="project-container">
+  <script>
+    function setColorMode(t){let e=document.documentElement;e.setAttribute("data-color-mode",t);let a=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,s=t;"auto"===t&&(s=a?"dark":"light"),"light"===s?(e.classList.remove("dark"),e.classList.add("light")):(e.classList.remove("light"),e.classList.add("dark"))}
+    setColorMode(sessionStorage._theme||"auto");
+  </script><link rel="stylesheet" type="text/css" href="_static/pygments.css?v=aecf457f" />
+    <link rel="stylesheet" type="text/css" href="_static/shibuya.css?v=bb1fd5f2" />
+    <link media="print" rel="stylesheet" type="text/css" href="_static/print.css?v=20ff2c19" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --sy-f-text: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
+  --sy-f-heading: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
+}
+</style>
+    <meta property="og:type" content="website"/><meta property="og:title" content="metarepo"/>
+<meta name="twitter:card" content="summary"/>
+  </head>
+<body><div class="document"><div class="sy-head">
+  <div class="sy-head-blur"></div>
+  <div class="sy-head-inner sy-container mx-auto">
+    <a class="sy-head-brand mr-4" href="#">
+      
+      
+      <strong>metarepo</strong>
+    </a>
+    <div class="sy-head-links" id="NavLinks">
+      <nav class="sy-head-nav"></nav>
+      <div class="sy-head-extra flex items-center print:hidden">
         
-        <h1>Documentation</h1>
+<form class="searchbox flex items-center" action="search.html" method="get">
+  <input type="text" name="q" placeholder="Search" />
+  <kbd>/</kbd>
+</form>
         
+        
+        <div class="sy-head-socials flex items-center">
+</div>
       </div>
-    </header>
+    </div>
+    <div class="sy-head-actions flex items-center shrink-0 print:hidden">
+      <button class="js-theme theme-switch flex items-center"
+data-aria-auto="Switch to light color mode"
+data-aria-light="Switch to dark color mode"
+data-aria-dark="Switch to auto color mode">
+<i class="i-lucide theme-icon"></i>
+</button>
+      <button class="md:hidden flex items-center js-menu" aria-label="Menu" type="button" aria-controls="NavLinks" aria-expanded="false">
+        <div class="hamburger">
+          <span class="hamburger_1"></span>
+          <span class="hamburger_2 -translate-x-2"></span>
+          <span class="hamburger_3 -translate-x-1"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="sy-page sy-container flex mx-auto">
+  <aside id="lside" class="sy-lside md:w-72 md:shrink-0 print:hidden">
+    <div class="sy-lside-inner md:sticky">
+      <div class="sy-scrollbar p-6">
+        <div class="globaltoc" data-expand-depth="0">
+        </div>
+      </div>
+      
+    </div>
+  </aside>
+  <div class="lside-overlay js-menu" role="button" aria-label="Close left sidebar" aria-controls="lside" aria-expanded="false"></div>
+  <aside id="rside" class="sy-rside pb-3 w-64 shrink-0 order-last">
+    <button class="rside-close js-menu xl:hidden" aria-label="Close Table of Contents" type="button" aria-controls="rside" aria-expanded="false">
+      <i class="i-lucide close"></i>
+    </button>
+    <div class="sy-scrollbar sy-rside-inner px-6 xl:top-16 xl:sticky xl:pl-0 pt-6 pb-4">
+  <div class="localtoc">
+    <h3>On this page</h3>
+    <ul>
+<li><a class="reference internal" href="#purpose">Purpose</a></li>
+<li><a class="reference internal" href="#lost-start-here">Lost? Start here</a></li>
+<li><a class="reference internal" href="#workflow">Workflow</a><ul>
+<li><a class="reference internal" href="#a-use-the-template-to-initialize-your-own-meta-repo">A. Use the template to initialize your own meta-repo</a></li>
+<li><a class="reference internal" href="#b-edit-the-readme-to-provide-instructions-for-how-to-reproduce-your-results">B. Edit the README to provide instructions for how to reproduce your results</a></li>
+<li><a class="reference internal" href="#c-upload-all-materials-necessary-to-reproduce-your-results">C. Upload all materials necessary to reproduce your results</a></li>
+<li><a class="reference internal" href="#d-add-a-doi-to-your-metarepo">D. Add a DOI to your metarepo</a></li>
+<li><a class="reference internal" href="#e-add-your-metarepo-citation-to-your-paper">E. Add your metarepo citation to your paper</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#additional-not-required-steps">Additional (not required) steps</a><ul>
+<li><a class="reference internal" href="#customize-your-gitignore-file">Customize your <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> file</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#best-practices">Best Practices</a></li>
+<li><a class="reference internal" href="#star-stellar-examples">:star: Stellar Examples</a></li>
+<li><a class="reference internal" href="#have-more-questions">Have more questions?</a></li>
+</ul>
 
-    <div id="content-container">
-
-      <div id="main-content-container">
-        <div id="main-content" role="main">
-          
-  <p><a class="reference external" href="https://zenodo.org/doi/10.5281/zenodo.10442485"><img alt="DOI" src="https://zenodo.org/badge/265254045.svg" /></a></p>
+  </div><div id="ethical-ad-placement" data-ea-publisher="readthedocs"></div>
+    </div>
+  </aside>
+  <div class="rside-overlay js-menu" role="button" aria-label="Close Table of Contents" aria-controls="rside" aria-expanded="false"></div>
+  <main class="sy-main w-full max-sm:max-w-full print:pt-6">
+    <div class="sy-breadcrumbs" role="navigation">
+  <div class="sy-breadcrumbs-inner flex items-center">
+    <div class="md:hidden mr-3">
+      <button class="js-menu" aria-label="Menu" type="button" aria-controls="lside" aria-expanded="false">
+        <i class="i-lucide menu"></i>
+      </button>
+    </div>
+    <ol class="flex-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+      
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="#"><span itemprop="name">metarepo</span></a>
+        <meta itemprop="position" content="1" />
+      </li>
+      
+      
+    </ol>
+    <div class="xl:hidden ml-1">
+      <button class="js-menu" aria-label="Show table of contents" type="button" aria-controls="rside"
+        aria-expanded="false">
+        <i class="i-lucide outdent"></i>
+      </button>
+    </div>
+  </div>
+</div>
+    <div class="flex flex-col break-words justify-between">
+      <div class="min-w-0 max-w-6xl px-6 pb-6 pt-8 xl:px-12">
+        <article class="yue" role="main">
+          <p><a class="reference external" href="https://zenodo.org/doi/10.5281/zenodo.10442485"><img alt="DOI" src="https://zenodo.org/badge/265254045.svg" /></a></p>
 <section id="metarepo">
 <h1>metarepo<a class="headerlink" href="#metarepo" title="Link to this heading">¶</a></h1>
 <p><code class="docutils literal notranslate"><span class="pre">metarepo</span></code> is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This repo is a template for creating your own metarepo.</p>
-<p>[![Click here to use the metarepo template]<a class="reference external" href="https://github.com/new?template_name=metarepo&amp;amp;template_owner=IMMM-SFA"></a>]</p>
+<p>[<img alt="Use the  template|32x32" src="https://github.com/new?template_name=metarepo&amp;template_owner=IMMM-SFA" />]</p>
 <section id="purpose">
 <h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">¶</a></h2>
 <p>A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository should contain references to all minted data and software as well as any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.</p>
@@ -145,101 +235,46 @@
 </section>
 </section>
 
-
-        </div>
-      </div>
-
-      <div id="side-menu-container">
-
-        <div id="search" role="search">
-        <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-            <input type="text" name="q" placeholder="Search..." />
-            <input type="hidden" name="check_keywords" value="yes" />
-            <input type="hidden" name="area" value="default" />
-        </form>
-</div>
-
-        <div id="side-menu" role="navigation">
-
-          
+        </article>
+        <button class="back-to-top" type="button">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+  </svg>
+  <span>Back to top</span>
+</button>
+        
+        <div class="navigation flex print:hidden">
   
+  
+</div>
+        
+      </div>
+    </div>
+  </main>
+</div>
+<footer class="sy-foot">
+  <div class="sy-foot-inner sy-container mx-auto">
     
+    <div class="sy-foot-reserved md:flex justify-between items-center">
+      <div class="sy-foot-copyright"><p>2024, Em Rexer, Chris Vernon</p>
   
-  
-    <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">metarepo</a><ul>
-<li><a class="reference internal" href="#purpose">Purpose</a></li>
-<li><a class="reference internal" href="#lost-start-here">Lost? Start here</a></li>
-<li><a class="reference internal" href="#workflow">Workflow</a><ul>
-<li><a class="reference internal" href="#a-use-the-template-to-initialize-your-own-meta-repo">A. Use the template to initialize your own meta-repo</a></li>
-<li><a class="reference internal" href="#b-edit-the-readme-to-provide-instructions-for-how-to-reproduce-your-results">B. Edit the README to provide instructions for how to reproduce your results</a></li>
-<li><a class="reference internal" href="#c-upload-all-materials-necessary-to-reproduce-your-results">C. Upload all materials necessary to reproduce your results</a></li>
-<li><a class="reference internal" href="#d-add-a-doi-to-your-metarepo">D. Add a DOI to your metarepo</a></li>
-<li><a class="reference internal" href="#e-add-your-metarepo-citation-to-your-paper">E. Add your metarepo citation to your paper</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#additional-not-required-steps">Additional (not required) steps</a><ul>
-<li><a class="reference internal" href="#customize-your-gitignore-file">Customize your <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> file</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#best-practices">Best Practices</a></li>
-<li><a class="reference internal" href="#star-stellar-examples">:star: Stellar Examples</a></li>
-<li><a class="reference internal" href="#have-more-questions">Have more questions?</a></li>
-</ul>
-</li>
-</ul>
+  <p>
+    Made with
+    
+    <a href="https://www.sphinx-doc.org/">Sphinx</a> and
+    
+    <a href="https://shibuya.lepture.com">Shibuya theme</a>.
+  </p>
 </div>
-  
-
-
-        </div>
-
-        
-
-      </div>
-
-    </div>
-
-<footer>
-    <div id="footer-info">
-        <ul id="build-details">
-            
-                <li class="footer-element">
-                    
-                        <a href="_sources/index.md.txt" rel="nofollow"> source</a>
-                    
-                </li>
-            
-
-            
-
-            
-        </ul>
-
-        
-            <div id="copyright">
-                &copy; 2024, Em Rexer, Chris Vernon
-            </div>
-        
-
-        <div id="credit">
-            created with <a href="http://sphinx-doc.org/">Sphinx</a> and <a href="https://github.com/Autophagy/insegel">Insegel</a>
-
-        </div>
-    </div>
-
-    <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
-
-    <script type="text/javascript">
-      $("#menu-toggle").click(function() {
-        $("#menu-toggle").toggleClass("toggled");
-        $("#side-menu-container").slideToggle(300);
-      });
-    </script>
-
-</footer> 
-
+      <div class="sy-foot-socials">
 </div>
-
+    </div>
+  </div>
+</footer></div>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/shibuya.js?v=5f0e4c24"></script>
+    
 </body>
 </html>
