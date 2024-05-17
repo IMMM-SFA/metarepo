@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'metarepo'
-copyright = '2024, Chris Vernon, Em Rexer'
-author = 'Chris Vernon, Em Rexer'
+copyright = '2024, Em Rexer, Chris Vernon'
+author = 'Em Rexer, Chris Vernon'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -16,7 +16,7 @@ author = 'Chris Vernon, Em Rexer'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 
 
