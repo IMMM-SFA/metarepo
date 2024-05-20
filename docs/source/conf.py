@@ -32,7 +32,12 @@ html_theme_options = {
     "nav_links": [
         {
             "title": "Use the metarepo template",
-            "url": "https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA"
+            "url": "https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA",
+        },
+        {
+            "title": "GitHub repo",
+            "url": "https://github.com/IMMM-SFA/metarepo/",
+            "external": True,
         },
     ],
     "logo_target": "https://immm-sfa.github.io/metarepo",
