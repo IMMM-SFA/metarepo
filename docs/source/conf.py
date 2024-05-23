@@ -47,6 +47,6 @@ html_sidebars = {
 }
 html_context = {
     "source_type": "github",
-    "source_user": "erexer",
-    "source_repo": "IMMM-SFA/metarepo",
+    "source_user": "IMMM-SFA",
+    "source_repo": "metarepo",
 }
