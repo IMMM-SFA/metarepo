@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'metarepo'
-copyright = '2024, Em Rexer, Chris Vernon'
+copyright = '2024, Integrated Multisector, Multiscale Modeling (IM3)'
 author = 'Em Rexer, Chris Vernon'
 
 # -- General configuration ---------------------------------------------------
@@ -34,13 +34,19 @@ html_theme_options = {
             "title": "Use the metarepo template",
             "url": "https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA",
         },
-        {
-            "title": "GitHub repo",
-            "url": "https://github.com/IMMM-SFA/metarepo/",
-            "external": True,
-        },
     ],
     "logo_target": "https://immm-sfa.github.io/metarepo",
 }
 html_logo = "metarepo_logo1.png"
 html_static_path = ['_static']
+html_sidebars = {
+    "**": [
+        "sidebars/localtoc.html",
+        "sidebars/repo-stats.html"
+    ]
+}
+html_context = {
+    "source_type": "github",
+    "source_user": "erexer",
+    "source_repo": "IMMM-SFA/metarepo",
+}

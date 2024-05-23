@@ -8,7 +8,10 @@ A meta-repository creates a single point of access for someone to find all of th
 
 ## Lost? Start here
 - Don't know how to use GitHub? Check out their [tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world).
-- Want a video walk-through of what a metarepo is, why they're important, and how to create one? [Here ya go](https://youtu.be/1dJOXdm-Wvc?t=180). 
+- Want a video walk-through of what a metarepo is, why they're important, and how to create one?
+```{eval-rst}
+..  youtube:: 1dJOXdm-Wvc?t=180
+```
 
 ## Workflow
 These are the big picture steps for how to start from scratch and end up with a complete metarepo. There are more in depth steps below.
