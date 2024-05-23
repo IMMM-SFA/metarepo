@@ -77,6 +77,7 @@ A general `.gitignore` for use with Python or R development is included. However
 - Don't bog down your repository with a bunch of raw data.  Instead archive and mint a DOI for your data and provide the reference in this repository with instructions for downloading and using. If you are a part of IM3, use [MSD-LIVE](https://msdlive.org/) to store data. 
 - Test that the instructions in your metarepo are enough to completely recreate your experiment. 
 - Remove all the instructive text throughout your metarepo once you're done. 
+- This workflow is significantly easier when started early in your project! Keep your metarepo up to date as you work on your experiment.
 
 
 ## Stellar Examples
