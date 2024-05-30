@@ -15,6 +15,8 @@ author = 'Em Rexer, Chris Vernon'
 
 extensions = [
     'myst_parser',
+    'sphinxcontrib.youtube'
+
     ]
 
 templates_path = ['_templates']
