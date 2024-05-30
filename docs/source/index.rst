@@ -32,7 +32,10 @@ Lost? Start here
    important, and how to create one?
 
 .. youtube:: 1dJOXdm-Wvc
-   :url_parameters: ?t=180
+   :url_parameters: ?start=180
+   :privacy_mode:
+   :align: center
+   :width: 100%
 
 Workflow
 --------
