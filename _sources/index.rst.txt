@@ -108,7 +108,7 @@ your experiment or results change at any time, update your metarepo and
 create a new release. It is important to version and release your
 meta-repository due to changes that may occur during the publication
 review process. If you do not know how to conduct a release on GitHub
-when linked with Zenodo, please contact chris.vernon@pnnl.gov to get set
+when linked with Zenodo, please contact `Chris Vernon <mailto:chris.vernon@pnnl.gov>`_ to get set
 up.
 
 1. Activate the repository on Zenodo. If your metarepo is a part of the
@@ -152,7 +152,7 @@ Best Practices
    data.
 -  Test that the instructions in your metarepo are enough to completely
    recreate your experiment.
--  Remove all the instructive text throughout your metarepo once you're
+-  Remove all the `how to create a metarepo` text once you're
    done.
 -  This workflow is significantly easier when started early in your
    project! Keep your metarepo up to date as you work on your
