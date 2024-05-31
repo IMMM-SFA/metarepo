@@ -165,9 +165,7 @@ data-aria-dark="Switch to auto color mode">
 <h1>metarepo<a class="headerlink" href="#metarepo" title="Link to this heading">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
-<p><code class="docutils literal notranslate"><span class="pre">metarepo</span></code> is short for meta-repository, a GitHub repository that
-contains instructions to reproduce results in a published work. This
-repo is a template for creating your own metarepo.</p>
+<p><code class="docutils literal notranslate"><span class="pre">metarepo</span></code> is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This page contains instructions on how to use this repo as a template for creating your own metarepo.</p>
 <section id="purpose">
 <h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">¶</a></h2>
 <p>A meta-repository creates a single point of access for someone to find
@@ -175,7 +173,7 @@ all of the components that were used to create a published work for the
 purpose of reproducibility. This repository should contain references to
 all minted data and software as well as any ancillary code used to
 transform the source data, create figures for your publication, conduct
-the experiment, and execute the contributing software if applicable.</p>
+the experiment, and run the contributing software if applicable.</p>
 </section>
 <section id="lost-start-here">
 <h2>Lost? Start here<a class="headerlink" href="#lost-start-here" title="Link to this heading">¶</a></h2>
@@ -207,7 +205,7 @@ click on the <code class="docutils literal notranslate"><span class="pre">Use</s
 or click <code class="docutils literal notranslate"><span class="pre">Use</span> <span class="pre">this</span> <span class="pre">template</span></code> on the <a class="reference external" href="https://github.com/IMMM-SFA/metarepo/">main repository
 page</a> (shows up above
 <code class="docutils literal notranslate"><span class="pre">Clone</span> <span class="pre">or</span> <span class="pre">download</span></code>) and click <code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">a</span> <span class="pre">new</span> <span class="pre">repository</span></code>.</p>
-<p>If you are a part of IM3, change the <code class="docutils literal notranslate"><span class="pre">Owner</span></code> to <code class="docutils literal notranslate"><span class="pre">IMMM-SFA</span></code>. Fill in
+<p>If you are a part of IM3, change the <code class="docutils literal notranslate"><span class="pre">Owner</span></code> to <code class="docutils literal notranslate"><span class="pre">IMMM-SFA</span></code>, otherwise, leave it as is. Fill in
 your <code class="docutils literal notranslate"><span class="pre">Repository</span> <span class="pre">name</span></code> (naming conventions below), the
 <code class="docutils literal notranslate"><span class="pre">Description</span></code>, select whether you want the repository to be <code class="docutils literal notranslate"><span class="pre">Public</span></code>
 or <code class="docutils literal notranslate"><span class="pre">Private</span></code>, and leave <code class="docutils literal notranslate"><span class="pre">Include</span> <span class="pre">all</span> <span class="pre">branches</span></code> unchecked. Click
@@ -220,21 +218,20 @@ repository:</p>
 <li><p>Multi author: <code class="docutils literal notranslate"><span class="pre">lastname-etal_year_journal</span></code></p></li>
 <li><p>Multiple publications in the same journal:
 <code class="docutils literal notranslate"><span class="pre">lastname-etal_year-letter_journal</span></code> (e.g.,
-<code class="docutils literal notranslate"><span class="pre">human-etal_2020-b_nature</span></code>)</p></li>
+<code class="docutils literal notranslate"><span class="pre">human-etal_2020-a_nature</span></code>, <code class="docutils literal notranslate"><span class="pre">human-etal_2020-b_nature</span></code>)</p></li>
 </ul>
 </section>
 <section id="b-edit-the-readme-to-provide-instructions-for-how-to-reproduce-your-results">
 <h3>B. Edit the README to provide instructions for how to reproduce your results<a class="headerlink" href="#b-edit-the-readme-to-provide-instructions-for-how-to-reproduce-your-results" title="Link to this heading">¶</a></h3>
 <p>Fill out all the applicable sections on your README. This can be done
-either locally (in the cloned GitHub repo on your computer using the
-<code class="docutils literal notranslate"><span class="pre">add</span></code>, <code class="docutils literal notranslate"><span class="pre">commit</span></code>, and <code class="docutils literal notranslate"><span class="pre">push</span></code> workflow), or in browser on the GitHub
-website.</p>
+either in browser on the GitHub website or locally (by cloning the GitHub repo onto your computer using the
+<code class="docutils literal notranslate"><span class="pre">add</span></code>, <code class="docutils literal notranslate"><span class="pre">commit</span></code>, and <code class="docutils literal notranslate"><span class="pre">push</span></code> workflow).</p>
 </section>
 <section id="c-upload-all-materials-necessary-to-reproduce-your-results">
 <h3>C. Upload all materials necessary to reproduce your results<a class="headerlink" href="#c-upload-all-materials-necessary-to-reproduce-your-results" title="Link to this heading">¶</a></h3>
-<p>If your experiment includes scripts, upload those to the <code class="docutils literal notranslate"><span class="pre">scripts</span></code>
-directory. No data should be stored in your metarepo, data should be
-uploaded to a data storage service. For IM3 folks, use
+<p>If your experiment includes scripts or figures, upload those to the <code class="docutils literal notranslate"><span class="pre">scripts</span></code> or <code class="docutils literal notranslate"><span class="pre">figures</span></code>
+directories. No data should be stored in your metarepo, data should be
+uploaded to a data storage service. IM3 folks should use
 <a class="reference external" href="https://msdlive.org/">MSD-LIVE</a>.</p>
 </section>
 <section id="d-add-a-doi-to-your-metarepo">
@@ -256,7 +253,7 @@ up.</p>
 may need a member of the DSC team to help you with this.</p></li>
 <li><p>Create a “release” for your metarepo in GitHub. Generally you can
 start with <code class="docutils literal notranslate"><span class="pre">v1.0.0</span></code>.</p></li>
-<li><p>Get a DOI from Zenodo and add the DOI badge to your repository.</p></li>
+<li><p>Get a DOI from Zenodo and add the DOI badge to your repository at the top of the <code class="docutils literal notranslate"><span class="pre">README.md</span></code>.</p></li>
 </ol>
 </section>
 <section id="e-add-your-metarepo-citation-to-your-paper">
@@ -268,7 +265,7 @@ instructions you’ve created.</p>
 <li><p>Edit the <code class="docutils literal notranslate"><span class="pre">CITATION.cff</span></code> file to contain the correct author(s)
 (name, ORCID ID), version, DOI, and URL.</p></li>
 <li><p>Click on the <code class="docutils literal notranslate"><span class="pre">Cite</span> <span class="pre">this</span> <span class="pre">repository</span></code> button on the right side of the
-main page of your metarepo. Copy either the APA or BibTex format.</p></li>
+main page of your metarepo. Copy whichever format you prefer.</p></li>
 <li><p>Add the citation to your paper.</p></li>
 </ol>
 </section>
@@ -293,7 +290,7 @@ are a part of IM3, use <a class="reference external" href="https://msdlive.org/"
 data.</p></li>
 <li><p>Test that the instructions in your metarepo are enough to completely
 recreate your experiment.</p></li>
-<li><p>Remove all the <cite>how to create a metarepo</cite> text once you’re
+<li><p>Clean up by removing all the <code class="docutils literal notranslate"><span class="pre">how</span> <span class="pre">to</span> <span class="pre">create</span> <span class="pre">a</span> <span class="pre">metarepo</span></code> text once you’re
 done.</p></li>
 <li><p>This workflow is significantly easier when started early in your
 project! Keep your metarepo up to date as you work on your

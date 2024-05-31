@@ -9,9 +9,7 @@ metarepo
 .. toctree::
    :maxdepth: 2
 
-``metarepo`` is short for meta-repository, a GitHub repository that
-contains instructions to reproduce results in a published work. This
-repo is a template for creating your own metarepo.
+``metarepo`` is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This page contains instructions on how to use this repo as a template for creating your own metarepo.
 
 Purpose
 -------
@@ -21,7 +19,7 @@ all of the components that were used to create a published work for the
 purpose of reproducibility. This repository should contain references to
 all minted data and software as well as any ancillary code used to
 transform the source data, create figures for your publication, conduct
-the experiment, and execute the contributing software if applicable.
+the experiment, and run the contributing software if applicable.
 
 Lost? Start here
 ----------------
@@ -64,7 +62,7 @@ or click ``Use this template`` on the `main repository
 page <https://github.com/IMMM-SFA/metarepo/>`_ (shows up above
 ``Clone or download``) and click ``Create a new repository``.
 
-If you are a part of IM3, change the ``Owner`` to ``IMMM-SFA``. Fill in
+If you are a part of IM3, change the ``Owner`` to ``IMMM-SFA``, otherwise, leave it as is. Fill in
 your ``Repository name`` (naming conventions below), the
 ``Description``, select whether you want the repository to be ``Public``
 or ``Private``, and leave ``Include all branches`` unchecked. Click
@@ -78,22 +76,21 @@ repository:
 -  Multi author: ``lastname-etal_year_journal``
 -  Multiple publications in the same journal:
    ``lastname-etal_year-letter_journal`` (e.g.,
-   ``human-etal_2020-b_nature``)
+   ``human-etal_2020-a_nature``, ``human-etal_2020-b_nature``)
 
 B. Edit the README to provide instructions for how to reproduce your results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Fill out all the applicable sections on your README. This can be done
-either locally (in the cloned GitHub repo on your computer using the
-``add``, ``commit``, and ``push`` workflow), or in browser on the GitHub
-website.
+either in browser on the GitHub website or locally (by cloning the GitHub repo onto your computer using the
+``add``, ``commit``, and ``push`` workflow).
 
 C. Upload all materials necessary to reproduce your results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If your experiment includes scripts, upload those to the ``scripts``
-directory. No data should be stored in your metarepo, data should be
-uploaded to a data storage service. For IM3 folks, use
+If your experiment includes scripts or figures, upload those to the ``scripts`` or ``figures`` 
+directories. No data should be stored in your metarepo, data should be
+uploaded to a data storage service. IM3 folks should use
 `MSD-LIVE <https://msdlive.org/>`_.
 
 D. Add a DOI to your metarepo
@@ -116,7 +113,7 @@ up.
    may need a member of the DSC team to help you with this.
 2. Create a “release” for your metarepo in GitHub. Generally you can
    start with ``v1.0.0``.
-3. Get a DOI from Zenodo and add the DOI badge to your repository.
+3. Get a DOI from Zenodo and add the DOI badge to your repository at the top of the ``README.md``.
 
 E. Add your metarepo citation to your paper
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -128,7 +125,7 @@ instructions you've created.
 1. Edit the ``CITATION.cff`` file to contain the correct author(s)
    (name, ORCID ID), version, DOI, and URL.
 2. Click on the ``Cite this repository`` button on the right side of the
-   main page of your metarepo. Copy either the APA or BibTex format.
+   main page of your metarepo. Copy whichever format you prefer.
 3. Add the citation to your paper.
 
 Additional (not required) steps
@@ -152,7 +149,7 @@ Best Practices
    data.
 -  Test that the instructions in your metarepo are enough to completely
    recreate your experiment.
--  Remove all the `how to create a metarepo` text once you're
+-  Clean up by removing all the ``how to create a metarepo`` text once you're
    done.
 -  This workflow is significantly easier when started early in your
    project! Keep your metarepo up to date as you work on your
