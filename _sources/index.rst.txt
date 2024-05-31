@@ -88,8 +88,9 @@ either in browser on the GitHub website or locally (by cloning the GitHub repo o
 C. Upload all materials necessary to reproduce your results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If your experiment includes scripts or figures, upload those to the ``scripts`` or ``figures`` 
-directories. No data should be stored in your metarepo, data should be
+If your experiment includes scripts, upload those to the ``scripts`` directory. 
+If your paper containes figures, upload both the figure and the code to generate that figure to the ``figures`` 
+directory. No data should be stored in your metarepo, data should be
 uploaded to a data storage service. IM3 folks should use
 `MSD-LIVE <https://msdlive.org/>`_.
 
