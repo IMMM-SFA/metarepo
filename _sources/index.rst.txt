@@ -21,7 +21,7 @@ all of the components that were used to create a published work for the
 purpose of reproducibility. This repository should contain references to
 all minted data and software as well as any ancillary code used to
 transform the source data, create figures for your publication, conduct
-the experiment, and / or execute the contributing software.
+the experiment, and execute the contributing software if applicable.
 
 Lost? Start here
 ----------------
