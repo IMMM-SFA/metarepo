@@ -43,19 +43,16 @@ Workflow
 These are the big picture steps for how to start from scratch and end up
 with a complete metarepo. There are more in depth steps below.
 
-A. `Use the template to initialize your own
-meta-repo <#a-use-the-template-to-initialize-your-own-meta-repo>`_
+A. `Use the template to initialize your own meta-repo <#a-use-the-template-to-initialize-your-own-meta-repo>`_
 
-B. `Edit the README to provide instructions for how to reproduce your
-results <#b-edit-the-readme-to-provide-instructions-for-how-to-reproduce-your-results>`_
+B. `Edit the README to provide instructions for how to reproduce your results <#b-edit-the-readme-to-provide-instructions-for-how-to-reproduce-your-results>`_
 
-C. `Upload all materials necessary to reproduce your
-results <#c-upload-all-materials-necessary-to-reproduce-your-results>`_
+C. `Upload all materials necessary to reproduce your results <#c-upload-all-materials-necessary-to-reproduce-your-results>`_
 
 D. `Add a DOI to your metarepo <#d-add-a-doi-to-your-metarepo>`_
 
-E. `Add your metarepo citation to your
-paper <#e-add-your-metarepo-citation-to-your-paper>`_
+E. `Add your metarepo citation to your paper <#e-add-your-metarepo-citation-to-your-paper>`_
+
 
 A. Use the template to initialize your own meta-repo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
