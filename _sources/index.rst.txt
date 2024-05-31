@@ -14,7 +14,7 @@ metarepo
 Purpose
 -------
 
-A meta-repository creates a single point of access for someone to find
+A metarepo creates a single point of access for someone to find
 all of the components that were used to create a published work for the
 purpose of reproducibility. This repository should contain references to
 all minted data and software as well as any ancillary code used to
@@ -41,7 +41,7 @@ Workflow
 These are the big picture steps for how to start from scratch and end up
 with a complete metarepo. There are more in depth steps below.
 
-A. `Use the template to initialize your own meta-repo <#a-use-the-template-to-initialize-your-own-meta-repo>`_
+A. `Use the template to initialize your own metarepo <#a-use-the-template-to-initialize-your-own-metarepo>`_
 
 B. `Edit the README to provide instructions for how to reproduce your results <#b-edit-the-readme-to-provide-instructions-for-how-to-reproduce-your-results>`_
 
@@ -52,8 +52,8 @@ D. `Add a DOI to your metarepo <#d-add-a-doi-to-your-metarepo>`_
 E. `Add your metarepo citation to your paper <#e-add-your-metarepo-citation-to-your-paper>`_
 
 
-A. Use the template to initialize your own meta-repo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A. Use the template to initialize your own metarepo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To use the template, either click
 `here <https://github.com/new?template_name=metarepo&template_owner=IMMM-SFA>`_,
@@ -103,7 +103,7 @@ three steps are summarized below. Note that this should be done after
 your metarepo is public and up to date with your current results. If
 your experiment or results change at any time, update your metarepo and
 create a new release. It is important to version and release your
-meta-repository due to changes that may occur during the publication
+metarepo due to changes that may occur during the publication
 review process. If you do not know how to conduct a release on GitHub
 when linked with Zenodo, please contact `Chris Vernon <mailto:chris.vernon@pnnl.gov>`_ to get set
 up.
