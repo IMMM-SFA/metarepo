@@ -1,1 +1,1 @@
-## This is the directory to place your figures
+## This directory contains figures and the code to create those figures

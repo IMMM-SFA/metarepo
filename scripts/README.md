@@ -1,1 +1,1 @@
-## This is the directory for scripts to recreate your experiment 
+## This directory contains scripts to recreate your experiment and results
