@@ -29,8 +29,8 @@
   <div class="sy-head-blur"></div>
   <div class="sy-head-inner sy-container mx-auto">
     <a class="sy-head-brand mr-4" href="https://immm-sfa.github.io/metarepo">
-      <img class="light-logo" src="_static/metarepo_logo1.png" alt="metarepo" height="28" />
-      <img class="dark-logo" src="_static/metarepo_logo1.png" alt="metarepo" height="28" />
+      <img class="light-logo" src="_static/metarepo_logo.png" alt="metarepo" height="28" />
+      <img class="dark-logo" src="_static/metarepo_logo.png" alt="metarepo" height="28" />
       <strong>metarepo</strong>
     </a>
     <div class="sy-head-links" id="NavLinks">
@@ -229,8 +229,10 @@ either in browser on the GitHub website or locally (by cloning the GitHub repo o
 </section>
 <section id="c-upload-all-materials-necessary-to-reproduce-your-results">
 <h3>C. Upload all materials necessary to reproduce your results<a class="headerlink" href="#c-upload-all-materials-necessary-to-reproduce-your-results" title="Link to this heading">¶</a></h3>
-<p>If your experiment includes scripts, upload those to the <code class="docutils literal notranslate"><span class="pre">scripts</span></code> directory.
-If your paper containes figures, upload both the figure and the code to generate that figure to the <code class="docutils literal notranslate"><span class="pre">figures</span></code>
+<p>If your experiment includes scripts, upload those to the <code class="docutils literal notranslate"><span class="pre">scripts</span></code> directory. Include instructions to recreate your environment, for Python
+this would be the Python version and a <a class="reference external" href="https://pip.pypa.io/en/stable/reference/requirements-file-format/">requirements.txt</a> file. For R,
+include the R version and consider creating a <a class="reference external" href="https://stackoverflow.com/questions/38928326/is-there-something-like-requirements-txt-for-r">function that installs the required packages</a>.
+If your paper contains figures, upload both the figure and the code to generate that figure to the <code class="docutils literal notranslate"><span class="pre">figures</span></code>
 directory. No data should be stored in your metarepo, data should be
 uploaded to a data storage service. IM3 folks should use
 <a class="reference external" href="https://msdlive.org/">MSD-LIVE</a>.</p>

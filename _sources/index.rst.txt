@@ -88,11 +88,15 @@ either in browser on the GitHub website or locally (by cloning the GitHub repo o
 C. Upload all materials necessary to reproduce your results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If your experiment includes scripts, upload those to the ``scripts`` directory. 
-If your paper containes figures, upload both the figure and the code to generate that figure to the ``figures`` 
+If your experiment includes scripts, upload those to the ``scripts`` directory. Include instructions to recreate your environment, for Python 
+this would be the Python version and a `requirements.txt <https://pip.pypa.io/en/stable/reference/requirements-file-format/>`_ file. For R, 
+include the R version and consider creating a `function that installs the required packages 
+<https://stackoverflow.com/questions/38928326/is-there-something-like-requirements-txt-for-r>`_. 
+If your paper contains figures, upload both the figure and the code to generate that figure to the ``figures`` 
 directory. No data should be stored in your metarepo, data should be
 uploaded to a data storage service. IM3 folks should use
 `MSD-LIVE <https://msdlive.org/>`_.
+   
 
 D. Add a DOI to your metarepo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
