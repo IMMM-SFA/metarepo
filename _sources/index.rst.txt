@@ -60,7 +60,7 @@ To use the template, either click
 click on the ``Use the metarepo template`` link at the top of this page,
 or click ``Use this template`` on the `main repository
 page <https://github.com/IMMM-SFA/metarepo/>`_ (shows up above
-``Clone or download``) and click ``Create a new repository``.
+``Clone or download`` when you're logged in) and click ``Create a new repository``.
 
 If you are a part of IM3, change the ``Owner`` to ``IMMM-SFA``, otherwise, leave it as is. Fill in
 your ``Repository name`` (naming conventions below), the
