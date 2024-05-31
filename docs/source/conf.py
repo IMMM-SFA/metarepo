@@ -8,7 +8,7 @@
 
 project = 'metarepo'
 copyright = '2024, Integrated Multisector, Multiscale Modeling (IM3)'
-author = 'Em Rexer, Chris Vernon'
+author = 'Chris Vernon, Em Rexer'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -16,12 +16,10 @@ author = 'Em Rexer, Chris Vernon'
 extensions = [
     'myst_parser',
     'sphinxcontrib.youtube'
-
     ]
 
 templates_path = ['_templates']
 exclude_patterns = []
-
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -39,7 +37,7 @@ html_theme_options = {
     ],
     "logo_target": "https://immm-sfa.github.io/metarepo",
 }
-html_logo = "metarepo_logo1.png"
+html_logo = "metarepo_logo.png"
 html_static_path = ['_static']
 html_sidebars = {
     "**": [
