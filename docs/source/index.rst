@@ -131,7 +131,7 @@ instructions you've created.
    (name, ORCID ID), version, DOI, and URL.
 2. Click on the ``Cite this repository`` button on the right side of the
    main page of your metarepo. Copy whichever format you prefer.
-3. Add the citation to your paper.
+3. Add the citation to the data availability section of your paper. For example, “All code and data to reproduce the results and figures can be found <citation>.”
 
 Additional (not required) steps
 -------------------------------
