@@ -170,9 +170,9 @@ Stellar Examples
 News and Awards
 ---------------
 
--  The article `Journal of Water Resources Planning and Management’s Reproducibility Review Program: Accomplishments, Lessons, and Next Steps
- <https://ascelibrary.org/doi/10.1061/JWRMD5.WRENG-6559>`_ is a 3-year (2020-2023) summary perspective from ASCE JWRPM making a major effort to evaluate and reward reproducibility. Antonia Hadjmichael's IM3 paper is one of only 13 that was found to be reproducible and given the highest award. The ASCE/EWRI has put $60K towards the open access awards. For context the journal published 557 papers in the 3 year period. 
- -  Hadjmichael's paper: `Exploring the Consistency of Water Scarcity Inferences between Large-Scale Hydrologic and Node-Based Water System Model Representations of the Upper Colorado River Basin <https://ascelibrary.org/doi/full/10.1061/JWRMD5.WRENG-5522>`_. 
+The article `Journal of Water Resources Planning and Management's Reproducibility Review Program: Accomplishments, Lessons, and Next Steps
+ <https://ascelibrary.org/doi/10.1061/JWRMD5.WRENG-6559>`_ is a 3-year (2020-2023) summary perspective from ASCE JWRPM making a major effort to evaluate and reward reproducibility. Antonia Hadjimichael's IM3 paper is one of only 13 that was found to be reproducible and given the highest award. The ASCE/EWRI has put $60K towards the open access awards. For context the journal published 557 papers in the 3 year period. 
+ -  Hadjimichael's paper: `Exploring the Consistency of Water Scarcity Inferences between Large-Scale Hydrologic and Node-Based Water System Model Representations of the Upper Colorado River Basin <https://ascelibrary.org/doi/full/10.1061/JWRMD5.WRENG-5522>`_. 
  -  `metarepo <https://github.com/antonia-had/Hadjimichael-etal_2021_JWRPM>_`. 
 
 Have more questions?
