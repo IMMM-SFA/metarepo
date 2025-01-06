@@ -13,12 +13,14 @@ jobs:
 
       - name: Check for scripts in README.md
         run: |
-            scripts=$(grep -Eo '\w+\.(sh|bash|py|js)' README.md)
+            # Get all scripts mentioned in README.md, sort them, and remove duplicates.
+            scripts=$(grep -Eo '\w+\.(sh|bash|py|js)' README.md | tr ' ' '\n' | sort | uniq)
+
             if [ -z "$scripts" ]; then
               echo "No scripts found in README.md."
             else
               echo "Found the following scripts in README.md:"
               for script in $scripts; do
-              echo "$script"
+                echo "$script"
               done
             fi
