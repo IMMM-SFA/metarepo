@@ -1,0 +1,24 @@
+name: Check README.md for Scripts
+on:
+  push:
+    branches:
+      - 'feature/code-quality-action'
+
+jobs:
+  check-for-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check for scripts in README.md
+        run: |
+            scripts=$(grep -Eo '\w+\.(sh|bash|py|js)' README.md)
+            if [ -z "$scripts" ]; then
+              echo "No scripts found in README.md."
+            else
+              echo "Found the following scripts in README.md:"
+              for script in $scripts; do
+              echo "$script"
+              done
+            fi
