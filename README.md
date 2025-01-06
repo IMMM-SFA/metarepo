@@ -65,10 +65,9 @@ _your output data references here_
 ## Reproduce my experiment
 Fill in detailed info here or link to other documentation to thoroughly walkthrough how to use the contents of this repository to reproduce your experiment. Below is an example.
 
-
 1. Install the software components required to conduct the experiment from [contributing modeling software](#contributing-modeling-software)
 2. Download and install the supporting [input data](#input-data) required to conduct the experiment
-3. Run the following scripts in the `workflow` directory to re-create this experiment:
+3. Run the following scripts in the `scripts` directory to re-create this experiment:
 
 | Script Name | Description | How to Run |
 | --- | --- | --- |
@@ -76,7 +75,7 @@ Fill in detailed info here or link to other documentation to thoroughly walkthro
 | `step_two.py` | Script to run the second part of my experiment | `python3 step_two.py -o /path/to/my/outputdir` |
 
 4. Download and unzip the [output data](#output-data) from my experiment 
-5. Run the following scripts in the `workflow` directory to compare my outputs to those from the publication
+5. Run the following scripts in the `scripts` directory to compare my outputs to those from the publication
 
 | Script Name | Description | How to Run |
 | --- | --- | --- |
@@ -87,6 +86,6 @@ Use the scripts found in the `figures` directory to reproduce the figures used i
 
 | Figure Number(s) | Script Name | Description | How to Run |
 | --- | --- | --- | --- |
-| 1, 2 | `generate_plot.py` | Description of figure, ie. "Plots the difference between our two scenarios" | `python3 generate_plot.py -input /path/to/inputs -output /path/to/outuptdir` |
-| 3 | `generate_figure.py` | Description of figure, ie. "Shows how the mean and peak differences are calculated" | `python3 generate_figure.py -input /path/to/inputs -output /path/to/outuptdir` |
+| 1, 2 | `generate_plot.py` | Description of figure, ie. "Plots the difference between our two scenarios" | `python3 generate_plot.py -input /path/to/inputs -output /path/to/outputdir` |
+| 3 | `generate_figure.py` | Description of figure, ie. "Shows how the mean and peak differences are calculated" | `python3 generate_figure.py -input /path/to/inputs -output /path/to/outputdir` |
 
