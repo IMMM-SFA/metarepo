@@ -3,13 +3,13 @@
 
 checklist_items:
   - "Have you edited the README with clear instructions on how to reproduce your results?"
-  - "Have you uploaded all the materials needed to reproduce your results?"
-  - "Have you added a DOI to your metarepo?"
+  - "Have you uploaded all code needed to reproduce your results (without uploading large/private data files to this repository)?"
+  - "Have you provided enough information (links, citations, and instructions) for others to access all required input data for your scripts?"
+  - "Have you added a DOI to your metarepo? ([How to mint a DOI](https://immm-sfa.github.io/metarepo/))"
   - "Have you added your metarepo citation to your paper?"
   - "Have you double-checked all author names?"
   - "Does the journal name in your repo exactly match the name in your submitted publication?"
   - "Have you included code references and version numbers for all software used?"
-  - "Once your paper is accepted, please update the journal name and title in your metarepo if they were modified during the submission process."
 
 # AI Configuration
 ai:

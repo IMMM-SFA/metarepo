@@ -48,6 +48,8 @@ def generate_checklist():
 
     config = load_config()
     ai_cfg = config.get("ai", {})
+    checklist_items = load_checklist_items(config)
+    checklist_template = "\n".join([f"- [ ] {item}" for item in checklist_items])
 
     files = get_pr_files()
     files_summary = "\n".join([f"- {f['filename']}" for f in files[:5]])
@@ -59,11 +61,13 @@ Description: {PR_BODY or "(none)"}
 
 Files changed: {files_summary}
 
-Generate a checklist (5-8 items max) in this exact format:
+Use the following required checklist content as your baseline (keep the same meaning):
+{checklist_template}
+
+Generate a checklist in this exact format:
 - [ ] Item description
 
-Focus on: releases, tracking IDs, documentation, data references, credentials, file structure.
-Include a brief tip for each item if needed."""
+Keep checklist items actionable and concise."""
 
     headers = {
         "Authorization": f"Bearer {AI_API_KEY}",
@@ -128,6 +132,10 @@ def main():
 Hey! 👋 Thanks for submitting. Before this PR gets reviewed, please take a moment to go through the checklist below. These are the things we typically catch during QC — better to check now than after review!
 
 {checklist}
+
+    🔔 **Reminder for later:** Once your paper is accepted, please update the journal name and title in your metarepo if they were modified during submission.
+
+    📚 **Checkout the website for instructions:** https://immm-sfa.github.io/metarepo/
 
 ---
 *This checklist was posted automatically. Tick off each item once done. Reach out to the team if you have questions!*"""
