@@ -16,7 +16,7 @@ REPO_OWNER = os.getenv("REPO_OWNER")
 REPO_NAME = os.getenv("REPO_NAME")
 PR_NUMBER = os.getenv("PR_NUMBER")
 AI_API_KEY = os.getenv("AI_API_KEY")
-AI_MODEL_ENDPOINT = os.getenv("AI_MODEL_ENDPOINT", "https://api.openai.com/v1/chat/completions")
+AI_MODEL_ENDPOINT = os.getenv("AI_MODEL_ENDPOINT") or "https://api.openai.com/v1/chat/completions"
 PR_TITLE = os.getenv("PR_TITLE", "")
 PR_BODY = os.getenv("PR_BODY", "")
 DRY_RUN = os.getenv("DRY_RUN", "false").lower() in {"1", "true", "yes"}
@@ -123,7 +123,7 @@ def main():
 
     try:
         checklist = generate_checklist()
-        comment = f"""## 🤖 IM3 Metrepo Bot
+        comment = f"""## 🤖 IM3 Metarepo Bot
 
 Hey! 👋 Thanks for submitting. Before this PR gets reviewed, please take a moment to go through the checklist below. These are the things we typically catch during QC — better to check now than after review!
 
