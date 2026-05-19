@@ -90,3 +90,17 @@ Use the scripts found in the `figures` directory to reproduce the figures used i
 | 1, 2 | `generate_plot.py` | Description of figure, ie. "Plots the difference between our two scenarios" | `python3 generate_plot.py -input /path/to/inputs -output /path/to/outuptdir` |
 | 3 | `generate_figure.py` | Description of figure, ie. "Shows how the mean and peak differences are calculated" | `python3 generate_figure.py -input /path/to/inputs -output /path/to/outuptdir` |
 
+## Automated Quality Checks
+
+This repository uses a GitHub bot that automatically posts a QC checklist on every PR. 
+
+**One-time setup (repo/org admin only):**
+1. Add these GitHub Actions secrets:
+   - `AI_API_KEY`: OpenAI API key (from https://platform.openai.com/api-keys)
+   - `AI_MODEL_ENDPOINT`: `https://api.openai.com/v1/chat/completions`
+
+**For contributors (end users):**
+- No setup needed.
+- Just open or update a PR; the bot runs automatically and posts the checklist.
+
+To customize the checklist, edit [.github/bot/qc_config.yaml](./.github/bot/qc_config.yaml)

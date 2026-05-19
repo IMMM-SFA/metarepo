@@ -1,0 +1,45 @@
+name: IM3 MetaRepo Bot
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, ready_for_review]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  qc-check:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out just the base branch's bot script (safe from PR modifications)
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.base_ref }}
+          sparse-checkout: |
+            .github/bot
+
+      # Check out PR code for file inspection
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr-head
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - run: |
+          pip install requests pyyaml
+
+      - name: Run QC Bot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL_ENDPOINT: ${{ secrets.AI_MODEL_ENDPOINT }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: python .github/bot/metarepo_qc_bot.py

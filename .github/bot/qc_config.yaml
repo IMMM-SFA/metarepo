@@ -1,0 +1,18 @@
+# MetaRepo QC Bot Configuration
+# Customize the checklist items shown to PRs
+
+checklist_items:
+  - "Have you edited the README with clear instructions on how to reproduce your results?"
+  - "Have you uploaded all code needed to reproduce your results (without uploading large/private data files to this repository)?"
+  - "Have you provided enough information (links, citations, and instructions) for others to access all required input data for your scripts?"
+  - "Have you added a DOI to your metarepo? ([How to mint a DOI](https://immm-sfa.github.io/metarepo/))"
+  - "Have you added your metarepo citation to your paper?"
+  - "Have you double-checked all author names?"
+  - "Does the journal name in your repo exactly match the name in your submitted publication?"
+  - "Have you included code references and version numbers for all software used?"
+
+# AI Configuration
+ai:
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_tokens: 800
